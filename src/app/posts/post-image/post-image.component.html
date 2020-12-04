@@ -1,0 +1,10 @@
+<div>
+    <img   src="{{image}}" class="img-thumbnail imgage" >
+    <input #uploader type="file"  accept="jpg/png" class="invisible" (change)="uploadImage($event)" multiple >
+    <button  class="btn btn-secondary" (click)="uploader.click()">
+    
+        Choose Image
+    </button>
+  
+
+</div>  
